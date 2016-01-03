@@ -1,0 +1,148 @@
+/*
+Theme Name: Webpage for gluggalokanir.is
+Theme URI: http://localhost/gluggalokanir/
+Description: A custom WordPress website for gluggalokanir.is
+Author: Steingrimur
+Author URI: http://740.is
+Version: 1.0
+Tags: clean, light, responsive
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 1.19em;
+	padding-top: 0.345em;
+	
+}
+
+h1, h2, h3, h4, nav, footer {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav.desktop-nav, nav.mobile-nav, nav.top-nav {
+	font-size: 1.3em;
+	
+}
+
+h1, h2, h3, h4 {
+	color: #606060
+}
+
+
+h1 {
+	font-size: 6.854em;
+	line-height: 1.42em;
+	margin-bottom: 0.23em;
+}
+
+h2 {
+	font-size: 4.236em;
+	line-height: 1.42em;
+	margin-top: 1.65em;
+	margin-bottom: 0.37em;
+}
+
+h3 {
+	font-size: 2.618em;
+	margin-top: 1.65em;
+	margin-bottom: 0.87em;
+}
+
+h4 {
+	font-size: 1.616em;
+	margin-top: 2.36em;
+	margin-bottom: -0.06em;
+}
+
+.bg-color {
+	background-color: #2bace3;
+}
+
+nav.top-nav {
+	padding: 30px 0;
+	border: 1px solid;
+	background-color: white;
+	z-index: 100;
+}
+
+nav.desktop-nav {
+	display: none;
+}
+
+
+@media only screen and (min-width: 769px),
+		only screen and (min-width: 700px) and (orientation: landscape) {
+	nav.mobile-nav {
+		display: none;
+	}
+	
+	nav.desktop-nav {
+		display: block;
+		height: 50px;
+		text-align: center;
+		box-shadow: 0px 4px 10px -4px #555;
+		z-index: -1;
+	}
+	
+	nav.desktop-nav ul {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	nav.desktop-nav li {
+		display: inline-block;
+		color: #fff;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	
+	nav.desktop-nav li:hover {
+		background-color: aqua;
+		
+	}
+	
+	nav.desktop-nav li {
+		margin-left: 5%;
+	}
+	
+	nav.desktop-nav li:first-child {
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
