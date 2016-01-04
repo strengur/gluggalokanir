@@ -2,6 +2,7 @@
 function theme_styles() {
 	wp_enqueue_style('googleOpenSansCondensed', 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
 	wp_enqueue_style('googleMerriweather','https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700');
+	wp_enqueue_style('googleJosefinSans','https://fonts.googleapis.com/css?family=Josefin+Sans:700italic');
 	
 	wp_enqueue_style('normalize-theme-style', get_template_directory_uri(). '/css/normalize.css');
 	wp_enqueue_style('main-theme-style', get_template_directory_uri() . '/style.css');

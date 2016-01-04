@@ -1,21 +1,21 @@
 <nav class="top-nav">
-	S: 555 5555 Top Nav
+	<h4>S: 555 5555</h4>
 </nav>
 
 <nav class="desktop-nav bg-color">
 	<ul>
-		<li>Þú mælir svona</li>
-		<li>Sýnishorn</li>
-		<li>Panta</li>
-		<li>Hafa Samband</li>
+		<li><a href="#">Þú mælir svona</a></li>
+		<li><a href="#">Sýnishorn</a></li>
+		<li><a href="#">Panta</a></li>
+		<li><a href="#">Hafa Samband</a></li>
 	</ul>
 </nav>
 
-<nav class="mobile-nav bg-color">
+<nav class="mobile-nav">
 	<ul>
-		<li>List Item One</li>
-		<li>List Item Two</li>
-		<li>List Item Three</li>
-		<li>List Item Four</li>
+		<li><a href="#">Þú mælir svona</a></li>
+		<li><a href="#">Sýnishorn</a></li>
+		<li><a href="#">Panta</a></li>
+		<li><a href="#">Hafa Samband</a></li>
 	</ul>
 </nav>
