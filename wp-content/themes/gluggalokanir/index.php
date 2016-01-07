@@ -8,9 +8,9 @@
 	
 </section>
 
-<section class="blocks">
+<div class="blocks">
 	
-	<div class="block block-b">
+	<div class="block block-a">
 		<div class="block-content-image">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/banners/bath-692x421px.jpg">
 		</div>
@@ -32,7 +32,7 @@
 		</a>
 	</div>
 	
-	<div class="block block-b">
+	<div class="block block-c">
 		<div class="block-content-image">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/banners/office-692x421px.jpg">
 		</div>
@@ -43,7 +43,7 @@
 	</div>
 		
 	</div>
-</section>
+</div>
 
 
 
