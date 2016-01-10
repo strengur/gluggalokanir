@@ -3,7 +3,7 @@
 <section>
 	
 	<div class="hero-image">
-		<img src="<?php bloginfo('template_directory'); ?>/assets/banners/Shutter-Ranges_1680x480.jpg">
+		<img src="<?php bloginfo('template_directory'); ?>/assets/banners/bedroom-1680x480px.jpg">
 	</div>
 	
 </section>

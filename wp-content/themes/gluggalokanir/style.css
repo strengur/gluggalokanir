@@ -26,7 +26,7 @@ p {
 	
 }
 
-h1, h2, h3, h4, nav, footer, .block-content-textblock p {
+h1, h2, h3, h4, nav, footer, .block-content-textblock p, input.wpcf7-form-control.wpcf7-submit {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -211,11 +211,67 @@ nav.mobile-nav a {
 	bottom: 0;
 }
 
+.page-content-clearfix {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.page-content-contact h3 {
+	text-align: center;
+}
+
 .copyright {
 	width: 226px;
 	margin: 0 auto;
 }
 
+/*========== CONTACT FORM OVERWRITE ==========*/
+div.wpcf7 {
+	width: 303px;
+	margin: auto;
+}
+
+input.wpcf7-form-control.wpcf7-text,
+input.wpcf7-form-control.wpcf7-submit {
+	height: 40px;
+}
+
+input.wpcf7-form-control.wpcf7-text,
+textarea.wpcf7-form-control.wpcf7-textarea {
+	border: 1px solid #e3622b;
+	outline: none;
+}
+
+input.wpcf7-form-control.wpcf7-text,
+textarea.wpcf7-form-control.wpcf7-textarea,
+input.wpcf7-form-control.wpcf7-submit {
+	width: 294px;
+	border-radius: 3px;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+	border: 0;
+	background-color: #e3622b;
+	color: #FFF;
+	font-size: 1.25em;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+	background-color: #e56f3c;
+}
+
+input.wpcf7-form-control:focus,
+textarea.wpcf7-form-control.wpcf7-textarea:focus {
+	box-shadow: 0px 0px 10px #e3622b;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ng {
+    border: 2px solid #e32b50;
+    color: #e32b50;
+    background-color: #fad8df;
+    border-radius: 3px;
+}
 
 @media only screen and (min-width: 769px),
 		only screen and (min-width: 700px) and (orientation: landscape) {
@@ -309,6 +365,21 @@ nav.mobile-nav a {
 	.block:first-child {
 		margin-left: 2.4vw;
 	}
+	
+	/*========== CONTACT FORM OVERWRITE ==========*/
+	div.wpcf7 {
+		width: 504px;
+		margin: auto;
+	}
+	
+	input.wpcf7-form-control.wpcf7-text,
+	textarea.wpcf7-form-control.wpcf7-textarea,
+	input.wpcf7-form-control.wpcf7-submit {
+	
+	width: 494px;
+	
+	}
+
 }
 
 @media screen and (min-width: 918px) {
