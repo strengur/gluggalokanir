@@ -178,6 +178,7 @@ nav.mobile-nav a {
 	border-radius: 5px;
 	margin: 0 auto 25px;
 	overflow: hidden;
+	box-shadow: 4px 4px 10px -4px #555;
 }
 
 .block-a,
@@ -195,11 +196,17 @@ nav.mobile-nav a {
 }
 
 .block-content-textblock p {
-	font-size: 0.85em;
+	font-size: 0.9em;
 	color: #fff;
-	padding: 6px 6px 0 10px;
+	padding: 15px 6px 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.6px;
+}
+
+.block-content-textblock a {
+	display: block;
+	padding: 1px 0px 23px 0px;
+	text-decoration: none;
 }
 
 .block-content-image img {
@@ -267,10 +274,10 @@ textarea.wpcf7-form-control.wpcf7-textarea:focus {
 
 div.wpcf7-validation-errors,
 div.wpcf7-mail-sent-ng {
-    border: 2px solid #e32b50;
-    color: #e32b50;
-    background-color: #fad8df;
-    border-radius: 3px;
+	border: 2px solid #e32b50;
+	color: #e32b50;
+	background-color: #fad8df;
+	border-radius: 3px;
 }
 
 @media only screen and (min-width: 769px),
@@ -328,7 +335,6 @@ div.wpcf7-mail-sent-ng {
 	
 	nav.desktop-nav a {
 		padding: 11px;
-
 	}
 	
 	.hero-image {
@@ -366,6 +372,10 @@ div.wpcf7-mail-sent-ng {
 		margin-left: 2.4vw;
 	}
 	
+	.block-content-textblock p {
+		padding: 4px 6px 0 10px;
+	}
+	
 	/*========== CONTACT FORM OVERWRITE ==========*/
 	div.wpcf7 {
 		width: 504px;
@@ -375,16 +385,18 @@ div.wpcf7-mail-sent-ng {
 	input.wpcf7-form-control.wpcf7-text,
 	textarea.wpcf7-form-control.wpcf7-textarea,
 	input.wpcf7-form-control.wpcf7-submit {
-	
-	width: 494px;
-	
+		width: 494px;
 	}
 
 }
 
 @media screen and (min-width: 918px) {
-	.hero-image {
-		width: 100%;
+	
+}
+
+@media screen and (min-width: 1395px) {
+	.block-content-textblock p {
+		padding: 15px 6px 0 10px;
 	}
 }
 
