@@ -19,10 +19,11 @@ body {
 }
 
 p {
-	font-size: 1em;
-	line-height: 1.5em;
-	margin-top: 1.19em;
+	font-size: 0.83em;
+	line-height: 1.83em;
+	margin-top: 1.29em;
 	padding-top: 0.345em;
+	padding-bottom: 0.2em;
 	
 }
 
@@ -47,28 +48,28 @@ h1, h2, h3, h4 {
 
 
 h1 {
-	font-size: 6.854em;
+	font-size: 5.688em;
 	line-height: 1.42em;
 	margin-bottom: 0.23em;
 }
 
 h2 {
-	font-size: 4.236em;
-	line-height: 1.42em;
-	margin-top: 1.65em;
-	margin-bottom: 0.37em;
+	font-size: 3.515em;
+	line-height: 1.4em;
+	margin-top: 0.89em;
+	margin-bottom: 0.97em;
 }
 
 h3 {
-	font-size: 2.618em;
+	font-size: 2.173em;
 	margin-top: 1.65em;
 	margin-bottom: 0.87em;
 }
 
 h4 {
-	font-size: 1.616em;
-	margin-top: 2.36em;
-	margin-bottom: -0.06em;
+	font-size: 1.341em;
+	margin-top: 1.56em;
+	margin-bottom: 2.1em;
 }
 
 .blue-color {
@@ -227,6 +228,15 @@ nav.mobile-nav a {
 	text-align: center;
 }
 
+.post-content {
+	max-width: 31rem;
+	margin: 0 auto;
+}
+
+.post-content h2 {
+	text-align: center;
+}
+
 .copyright {
 	width: 226px;
 	margin: 0 auto;
@@ -282,6 +292,40 @@ div.wpcf7-mail-sent-ng {
 
 @media only screen and (min-width: 769px),
 		only screen and (min-width: 700px) and (orientation: landscape) {
+	
+	p {
+		font-size: 1em;
+		line-height: 1.5em;
+		margin-top: 1.4em;
+		padding-top: 0em;
+		padding-bottom: 0.1em;
+	}
+	
+	h1 {
+		font-size: 6.854em;
+		line-height: 1.42em;
+		margin-bottom: 0.23em;
+	}
+	
+	h2 {
+		font-size: 4.236em;
+		line-height: 1.42em;
+		margin-top: 0.9em;
+		margin-bottom: 1em;
+	}
+	
+	h3 {
+		font-size: 2.618em;
+		margin-top: 1.65em;
+		margin-bottom: 0.87em;
+	}
+	
+	h4 {
+		font-size: 1.616em;
+		margin-top: 2.36em;
+		margin-bottom: 2.3em;
+	}
+
 	
 	nav.top-nav h4 {
 		font-size: 1.616em;
@@ -374,6 +418,11 @@ div.wpcf7-mail-sent-ng {
 	
 	.block-content-textblock p {
 		padding: 4px 6px 0 10px;
+	}
+	
+	.post-content {
+		max-width: 38rem;
+		margin: 0 auto;
 	}
 	
 	/*========== CONTACT FORM OVERWRITE ==========*/
