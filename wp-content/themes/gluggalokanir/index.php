@@ -25,25 +25,26 @@
 			endif;
 		wp_reset_postdata();
 		
-		$leftBlockImage = get_field('left_block_feature_image');
-		$leftBlockText = get_field('left_block_text_block');
 		
-		$centerBlockImage = get_field('center_block_feature_image');
-		$centerBlockText = get_field('center_block_text_block');
+		$leftBlockImage = get_field('field_569fdaf8ba586', 46);
+		$leftBlockText = get_field('field_56a00d7a95d31', 46);
 		
-		$rightBlockImage = get_field('right_block_feature_image');
-		$rightBlockText = get_field('right_block_text_block');
+		$centerBlockImage = get_field('field_569fdc36e1c93', 48);
+		$centerBlockText = get_field('field_56a00ea576053', 48);
+		
+		$rightBlockImage = get_field('field_569fdc8fb353c', 50);
+		$rightBlockText = get_field('field_56a00ef254979', 50);
+		
 	?>
-<?php echo '<pre>';
-	var_dump( $centerBlockImage );
-echo '</pre>';?>
+	
+
 	<div class="block block-a">
 		<div class="block-content-image">
-			<a href="<?php print_r($links[0]);?>"><img src="<?php echo $leftBlockImage['url']; ?>" alt="<?php echo $leftBlockImage['alt']; ?>" /></a>
+			<a href="<?php print_r($links[2]);?>"><img src="<?php echo $rightBlockImage['url']; ?>" alt="<?php echo $rightBlockImage['alt']; ?>" /></a>
 		</div>
 		
 		<div class="block-content-textblock blue-color">
-			<a href="<?php print_r($links[0]);?>"><p><?php echo $leftBlockText; ?></p></a>
+			<a href="<?php print_r($links[2]);?>"><p><?php echo $rightBlockText; ?></p></a>
 		</div>
 	</div>
 	
@@ -59,15 +60,16 @@ echo '</pre>';?>
 	
 	<div class="block block-c">
 		<div class="block-content-image">
-			<a href="<?php print_r($links[2]);?>"><img src="<?php echo $rightBlockImage['url']; ?>" alt="<?php echo $rightBlockImage['alt']; ?>" /></a>
+			<a href="<?php print_r($links[0]);?>"><img src="<?php echo $leftBlockImage['url']; ?>" alt="<?php echo $lefttBlockImage['alt']; ?>" /></a>
 		</div>
 		
 		<div class="block-content-textblock blue-color">
-			<a href="<?php print_r($links[2]);?>"><p><?php echo $rightBlockText; ?></p></a>
+			<a href="<?php print_r($links[0]);?>"><p><?php echo $leftBlockText; ?></p></a>
 		</div>
+	</div>
+		
 	</div>
 </div>
 
-<?php print_r($centerBlockImage); ?>
 
 <?php include('footer.php'); ?>
