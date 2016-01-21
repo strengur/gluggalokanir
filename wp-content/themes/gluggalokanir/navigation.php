@@ -12,23 +12,9 @@
 </nav>
 
 <nav class="desktop-nav blue-color">
-<?php wp_nav_menu( array('menu' => 'Side-Menu')); ?>
-<!--
-	<ul>
-		<li><a href="#">Þú mælir svona</a></li>
-		<li><a href="#">Sýnishorn</a></li>
-		<li><a href="#">Panta</a></li>
-		<li><a href="#">Hafa Samband</a></li>
-	</ul>
--->
+	<?php wp_nav_menu( array('menu' => 'Side-Menu')); ?>
 </nav>
 
 <nav class="mobile-nav">
 	<?php wp_nav_menu( array('menu' => 'Side-Menu')); ?>
-	<ul>
-		<li><a href="#">Þú mælir svona</a></li>
-		<li><a href="#">Sýnishorn</a></li>
-		<li><a href="#">Panta</a></li>
-		<li><a href="#">Hafa Samband</a></li>
-	</ul>
 </nav>

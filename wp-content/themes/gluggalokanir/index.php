@@ -71,5 +71,15 @@
 	</div>
 </div>
 
+<section>
+	<div class="large-text-banner-clearfix">
+		<div class="large-text-banner-content">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/icons/tape.svg">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/icons/contract11.svg">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/icons/hammer42.svg">
+		</div>
+	</div>
+</section>
+
 
 <?php include('footer.php'); ?>
