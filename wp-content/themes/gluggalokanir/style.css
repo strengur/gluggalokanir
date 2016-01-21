@@ -199,7 +199,7 @@ nav.mobile-nav a {
 .block-content-textblock p {
 	font-size: 0.9em;
 	color: #fff;
-	padding: 15px 6px 0 10px;
+	padding: 10px 6px 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.6px;
 }
@@ -235,6 +235,32 @@ nav.mobile-nav a {
 
 .post-content h2 {
 	text-align: center;
+}
+
+.large-text-banner-clearfix {
+	width: 100%;
+	height: 120px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background: #f7d5c6;
+	border-top: 1px solid #e56f3c;
+	border-bottom: 1px solid #e56f3c;
+}
+
+.large-text-banner-content {
+	width: 300px;
+	margin: 30px auto 0;
+	position: relative;
+	text-align: center;
+}
+
+.large-text-banner-content img {
+	margin-right: 17%;
+	height: 60px;
+}
+
+.large-text-banner-content img:last-child {
+	margin-right: 0;
 }
 
 .copyright {
@@ -417,12 +443,27 @@ div.wpcf7-mail-sent-ng {
 	}
 	
 	.block-content-textblock p {
-		padding: 4px 6px 0 10px;
+		padding: 0px 6px 0 10px;
 	}
 	
 	.post-content {
 		max-width: 38rem;
 		margin: 0 auto;
+	}
+	
+	.large-text-banner-clearfix {
+	
+		height: 150px;
+	}
+
+	.large-text-banner-content {
+		width: 500px;
+		margin: 35px auto 0;
+	}
+
+	.large-text-banner-content img {
+		margin-right: 24%;
+		height: 80px;
 	}
 	
 	/*========== CONTACT FORM OVERWRITE ==========*/

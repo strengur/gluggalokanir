@@ -12,5 +12,6 @@
 	</head>
 	
 	<body>
+		<?php acf_form_head(); ?>
 		<?php include('navigation.php'); ?>
 		
