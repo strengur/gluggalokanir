@@ -175,9 +175,8 @@ nav.mobile-nav a {
 .block {
 	width: 89.4%;
 	height: 200px;
-/* 	border: 2px solid #2bace3; */
 	border-radius: 5px;
-	margin: 0 auto 25px;
+	margin: 0 auto 45px;
 	overflow: hidden;
 	box-shadow: 4px 4px 10px -4px #555;
 }
@@ -248,19 +247,28 @@ nav.mobile-nav a {
 }
 
 .large-text-banner-content {
-	width: 300px;
-	margin: 30px auto 0;
-	position: relative;
+	width: 315px;
+	margin: 18px auto 0;
+	
 	text-align: center;
 }
 
 .large-text-banner-content img {
-	margin-right: 17%;
 	height: 60px;
 }
 
 .large-text-banner-content img:last-child {
 	margin-right: 0;
+}
+
+.measure-icon, .order-icon, .installation-icon {
+	display: inline-block;
+	width: 97px;
+}
+
+.measure-icon p, .order-icon p, .installation-icon p {
+	margin: 0;
+	color: #e56f3c;
 }
 
 .copyright {
@@ -424,6 +432,7 @@ div.wpcf7-mail-sent-ng {
 	
 	.blocks {
 		width: 100%;
+		margin-top: 80px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -452,17 +461,25 @@ div.wpcf7-mail-sent-ng {
 	}
 	
 	.large-text-banner-clearfix {
-	
 		height: 150px;
 	}
 
 	.large-text-banner-content {
-		width: 500px;
-		margin: 35px auto 0;
+		width: 650px;
+		margin: 22px auto 0;
 	}
+	
+	.measure-icon, .order-icon, .installation-icon {
+		width: 210px;
+	}
+	
+	.measure-icon p, .order-icon p, .installation-icon p {
+		margin: 5px 0 0 0;
+	}
+	
+	
 
 	.large-text-banner-content img {
-		margin-right: 24%;
 		height: 80px;
 	}
 	
