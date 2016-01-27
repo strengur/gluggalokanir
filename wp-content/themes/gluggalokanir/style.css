@@ -152,6 +152,7 @@ nav.mobile-nav li {
 
 nav.mobile-nav li:first-child {
 	margin-top: 5px;
+	display: none;
 }
 
 nav.desktop-nav a,
@@ -284,8 +285,9 @@ nav.mobile-nav a {
 }
 
 footer {
-	background-color: rgba(43, 172, 227, 0.7);
 	margin-top: 65px;
+	background-color: rgba(43, 172, 227, 0.7);
+	box-shadow: 0px -6px 10px -6px #555;
 }
 
 .footer-menu {

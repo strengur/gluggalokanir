@@ -12,9 +12,9 @@
 </nav>
 
 <nav class="desktop-nav blue-color">
-	<?php wp_nav_menu( array('menu' => 'Side-Menu')); ?>
+	<?php wp_nav_menu( array('menu' => 'Top and Buttons')); ?>
 </nav>
 
 <nav class="mobile-nav">
-	<?php wp_nav_menu( array('menu' => 'Side-Menu')); ?>
+	<?php wp_nav_menu( array('menu' => 'Top and Buttons')); ?>
 </nav>
