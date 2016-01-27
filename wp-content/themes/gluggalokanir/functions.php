@@ -5,7 +5,10 @@ function theme_styles() {
 	wp_enqueue_style('googleJosefinSans','https://fonts.googleapis.com/css?family=Josefin+Sans:700italic');
 	
 	wp_enqueue_style('normalize-theme-style', get_template_directory_uri(). '/css/normalize.css');
+	wp_enqueue_style('slick-slider', get_template_directory_uri() . '/slick/slick.css');
+	wp_enqueue_style('slick-slider-theme', get_template_directory_uri() . '/slick/slick-theme.css');
 	wp_enqueue_style('main-theme-style', get_template_directory_uri() . '/style.css');
+	
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_styles' );

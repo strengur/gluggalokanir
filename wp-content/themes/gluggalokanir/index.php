@@ -2,8 +2,41 @@
 
 <section>
 	
+	
+	<?php $heroImages = array(
+			'category_name' => 'forsidumyndir'
+		);
+		
+		
+		$products = new WP_Query($heroImages);
+		if ($products->have_posts()) : while ($products->have_posts()) : $products->the_post();			
+
+			 $heroImageOne = get_field('field_56a93154f1393', 119);
+			 $heroImageTwo = get_field('field_56a93168f1394', 119);
+			 $heroImageThree = get_field('field_56a93476de829', 119);
+			
+			 endwhile;
+		endif;
+		
+		wp_reset_postdata();
+		
+		?>
+		
 	<div class="hero-image">
-		<img src="<?php bloginfo('template_directory'); ?>/assets/banners/bedroom-1680x480px.jpg">
+
+		<div>
+			
+			<img src="<?php echo $heroImageOne['url'] ?>">
+		</div>
+		<div>
+			
+			<img src="<?php echo $heroImageTwo['url'] ?>">
+		</div>
+		<div>
+			
+			<img src="<?php echo $heroImageThree['url'] ?>">
+		</div>
+
 	</div>
 	
 </section>
@@ -72,6 +105,10 @@
 </div>
 
 <section>
+	<div class="handwritten-message">
+		<img src="<?php bloginfo('template_directory'); ?>/assets/icons/fegradu-heimilid.svg">
+	</div>
+	
 	<div class="large-text-banner-clearfix">
 		<div class="large-text-banner-content">
 			<div class="measure-icon">

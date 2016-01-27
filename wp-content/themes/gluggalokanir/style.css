@@ -27,7 +27,8 @@ p {
 	
 }
 
-h1, h2, h3, h4, nav, footer, .block-content-textblock p, input.wpcf7-form-control.wpcf7-submit {
+h1, h2, h3, h4, nav, footer, .block-content-textblock p, input.wpcf7-form-control.wpcf7-submit,
+.measure-icon p, .order-icon p, .installation-icon p, .footer-menu {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -85,6 +86,7 @@ nav.top-nav {
 .phone-number {
 	position: absolute;
 	top: 20px;
+	width: 150px;
 	left: 5%;
 }
 
@@ -236,11 +238,20 @@ nav.mobile-nav a {
 	text-align: center;
 }
 
+.handwritten-message {
+	width: 300px;
+	margin: 60px auto 0;
+}
+
+.handwritten-message img {
+	width: 300px;
+}
+
 .large-text-banner-clearfix {
 	width: 100%;
 	height: 120px;
 	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 140px;
 	background: #f7d5c6;
 	border-top: 1px solid #e56f3c;
 	border-bottom: 1px solid #e56f3c;
@@ -249,7 +260,6 @@ nav.mobile-nav a {
 .large-text-banner-content {
 	width: 315px;
 	margin: 18px auto 0;
-	
 	text-align: center;
 }
 
@@ -269,11 +279,52 @@ nav.mobile-nav a {
 .measure-icon p, .order-icon p, .installation-icon p {
 	margin: 0;
 	color: #e56f3c;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer {
+	background-color: rgba(43, 172, 227, 0.7);
+	margin-top: 65px;
+}
+
+.footer-menu {
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;	
+}
+
+.footer-menu ul {
+	padding-left: 0;
+}
+
+.footer-menu ul, .copyright {
+	text-align: center;
+}
+
+.footer-menu li {
+	list-style: none;
+}
+
+.footer-menu a {
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-menu a:hover {
+	color: #e56f3c;
 }
 
 .copyright {
 	width: 226px;
 	margin: 0 auto;
+}
+
+.copyright p {
+	margin: 0;
 }
 
 /*========== CONTACT FORM OVERWRITE ==========*/
@@ -322,6 +373,17 @@ div.wpcf7-mail-sent-ng {
 	color: #e32b50;
 	background-color: #fad8df;
 	border-radius: 3px;
+}
+
+/*========== ACF Google Map ==========*/
+.acf-map img {
+	max-width: inherit !important;
+}
+
+@media only screen and (max-width: 699px) and (orientation: landscape) {
+	.footer-menu li {
+		padding: 10px 0;
+	}
 }
 
 @media only screen and (min-width: 769px),
@@ -417,7 +479,6 @@ div.wpcf7-mail-sent-ng {
 	
 	.hero-image {
 		display: block;
-		height: 29.4vw;
 		width: 100%;
 		margin-top: 35px;
 	}
@@ -432,7 +493,7 @@ div.wpcf7-mail-sent-ng {
 	
 	.blocks {
 		width: 100%;
-		margin-top: 80px;
+		margin-top: 32px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -460,8 +521,18 @@ div.wpcf7-mail-sent-ng {
 		margin: 0 auto;
 	}
 	
+	.handwritten-message {
+		width: 600px;
+/* 		margin: 60px auto 0; */
+	}
+
+	.handwritten-message img {
+		width: 600px;
+	}
+
 	.large-text-banner-clearfix {
 		height: 150px;
+		margin-bottom: 200px
 	}
 
 	.large-text-banner-content {
@@ -476,12 +547,29 @@ div.wpcf7-mail-sent-ng {
 	.measure-icon p, .order-icon p, .installation-icon p {
 		margin: 5px 0 0 0;
 	}
-	
-	
 
 	.large-text-banner-content img {
 		height: 80px;
 	}
+	
+	footer {
+		margin-top: 110px;
+	}
+
+	.footer-menu {
+		width: 690px;
+		padding-bottom: 30px;
+		padding-top: 20px;	
+	}
+	
+	.footer-menu ul {
+		text-align: left;
+	}
+	
+	.footer-menu a {
+		font-size: 1em;
+	}
+
 	
 	/*========== CONTACT FORM OVERWRITE ==========*/
 	div.wpcf7 {

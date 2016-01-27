@@ -10,7 +10,7 @@
 						
 <!--  		<link rel="stylesheet" href="http://basehold.it/24/ff0000"> -->
 	</head>
-	
+	<script src='http://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
 	<body>
 		<?php acf_form_head(); ?>
 		<?php include('navigation.php'); ?>
